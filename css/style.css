@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #000000;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Monito',sans-serif;
+}
+P{
+    font-family: 'Nomito',sans-serif;
+}
+.r-p{
+    padding-top: 200px;
+    padding-bottom: 70px;
+}
+input[type="email"] {
+    background: transparent;
+}
+.line{
+    width: 100%;
+    height: 8px;
+    background-color: #232323;
+}
+section{
+    height: 410px;
+}
+header{
+    height: 700px;
+    background-image: url(../img/IN-en-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+}
+.border{
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e50914;
+}
+.border:hover{
+    background-color: #a3070e;
+}
+nav button{
+    color: #fff;
+}
+nav .navbar-brand{
+    width: 150px;
+    
+}
+@media (max-width : 600px){
+    header{
+        height: 480px;
+    }
+    header .col h1{
+        font-size: 35px !important;
+    }
+    header .col p{
+        font-size: 20px !important;
+    }
+    header .container{
+        padding-top: 40px;
+    }
+    header .email input{
+        height: 45px !important;
+        width: 420px !important;
+    }
+    header .email button{
+        height: 45px !important;
+        width: 150px !important;
+    }
+    section{
+        height: 550px;
+    }
+    section .container{
+        padding-top: 40px;
+    }
+    section .container h1{
+        font-size: 35px;
+    }
+    section .container p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width : 600px){
+    header{
+        height: 480px;
+    }
+    header .col h1{
+        font-size: 35px !important;
+    }
+    header .col p{
+        font-size: 20px !important;
+    }
+    header .container{
+        padding-top: 40px;
+    }
+    header .email input{
+        height: 45px !important;
+        width: 420px !important;
+    }
+    header .email button{
+        height: 45px !important;
+        width: 150px !important;
+    }
+    section{
+        height: 550px;
+    }
+    section .container{
+        padding-top: 40px;
+    }
+    section .container h1{
+        font-size: 35px;
+    }
+    section .container p{
+        font-size: 20px;
+    }
+}
+header .col h1{
+    font-size: 50px;
+    color: #fff;
+}
+header .col p{
+    font-size: 25px;
+    color: #fff;
+}
+header .email input{
+    color: #fff;
+    width: 380px;
+    height: 60px;
+    border-color: white;
+}
+header .email button{
+    font-size: 20px;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    border-color: white !important;
+}
+.tv{
+    position: relative;
+}
+section .row .tv img{
+    height: 350px;
+}
+.tv video{
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    top: 21%;
+    left: 6.5%;
+}
+section .row .tv-left h1,p{
+    color: #fff;
+}
+
+.tv{
+    position: relative;
+}
+section .row .tv-apple img{
+    height: 350px;
+}
+.tv-apple video{
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 65%;
+    max-height: 45%;
+    top: 15%;
+    left: 10%;
+}
+section .row .tv-apple-left h1,p{
+    color: #fff;
+}
